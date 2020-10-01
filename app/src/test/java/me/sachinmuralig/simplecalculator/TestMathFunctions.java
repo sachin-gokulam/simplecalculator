@@ -20,14 +20,12 @@ public class TestMathFunctions {
     }
 
     @Test
-    public void Should_raiseException_when_eitherOperandNotNumberForAdd() {
-        // @TODO
+    public void Should_returnInfinity_when_divisionByZero() {
+        assertEquals(Double.POSITIVE_INFINITY, MathFunctions.divide("1", "0.0"), 0.0);
     }
 
-    @Test
-    public void Should_raiseException_when_divisionByZero() {
-        // @TODO
+    @Test (expected = NumberFormatException.class)
+    public void Should_raiseException_when_operandNotNumberForAdd() {
+        MathFunctions.add("1", "ABC");
     }
-
-    
 }
