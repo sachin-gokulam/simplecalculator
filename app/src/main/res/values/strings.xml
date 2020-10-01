@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Simple Calculator</string>
+    <string name="operand_one">Operand One</string>
+    <string name="operand_two">Operand Two</string>
+    <string name="result">Result : </string>
+    <string name="default_result_value">0</string>
+    <string name="add">Add</string>
+    <string name="subtract">Subtract</string>
+    <string name="multiply">Multiply</string>
+    <string name="divide">Divide</string>
 </resources>
