@@ -1,14 +1,12 @@
 package me.sachinmuralig.simplecalculator;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import java.util.Locale;
+import androidx.appcompat.app.AppCompatActivity;
 
 import me.sachinmuralig.utils.MathFunctions;
 
